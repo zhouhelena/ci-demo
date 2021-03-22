@@ -1,6 +1,13 @@
 name: Lint and Publish
 on: push
 jobs:
+  first:
+    name: Run first
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          echo done
   lint:
     name: Run lint
     needs: publish
