@@ -1,7 +1,7 @@
 const http = require('http');
 const { v4: uuidv4 } = require('uuid');
 
-const hostname = '0.0.0.0';
+const hostname = "0.0.0.0";
 const port = 8080;
 
 const server = http.createServer((req, res) => {
