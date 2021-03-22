@@ -11,6 +11,7 @@ jobs:
           yarn lint
   publish:
     name: Publish to github package registry
+    needs: lint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
