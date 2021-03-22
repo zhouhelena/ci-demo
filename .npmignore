@@ -1,0 +1,15 @@
+/.versionrc.json
+/coverage
+/test
+/tsconfig.json
+/src
+dist
+/tsconfig.json
+/.github
+/.vscode
+/.idea
+/tsconfig.jest.json
+/.eslintrc.json
+!/lib
+!/lib/**/*.js
+!/lib/**/*.d.ts
