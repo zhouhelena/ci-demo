@@ -6,6 +6,9 @@
   "scripts": {
     "lint": "eslint"
   },
+  "bin": {
+    "ci-demo": "./index.js"
+  },
   "author": "CIS 188",
   "license": "ISC",
   "dependencies": {

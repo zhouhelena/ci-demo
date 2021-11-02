@@ -1,29 +1,10 @@
 name: Lint and Publish
 on: push
 jobs:
-  first:
-    name: Run first
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - run: |
-          echo done
   lint:
     name: Run lint
-    needs: publish
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - run: |
-          yarn install
-          yarn lint
-  publish:
-    name: Publish to github package registry
-    needs: lint
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: JS-DevTools/npm-publish@v1
-        with:
-          registry: https://npm.pkg.github.com
-          token: ${{ secrets.GITHUB_TOKEN }}
+          echo "todo"
