@@ -38,7 +38,7 @@ You need to add a job named `publish` that:
 1. Checks out the code
 1. Publishes your npm package
 
-We'll give you what the step looks like for 3, but the first two you've gotta figure out! 3:
+We'll tell you how to do 3, but 1 and 2 you've gotta figure out! 3:
 
 ```yaml
 - uses: JS-DevTools/npm-publish@v1
