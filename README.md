@@ -1,16 +1,10 @@
 # CI Demo
 
-Time to publish. Fork this repo to get started.
+Time to publish. Fork this repo to get started. Then, go to the `Actions` tab on your repo and enable Github Actions.
 
 ## Installation
 
 Make sure you have [Node and NPM installed](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm#using-a-node-installer-to-install-nodejs-and-npm).
-
-## Setup
-
-Make yourself a [Github Personal Access token](https://github.com/settings/tokens/new) and save it. This token needs the `write:packages` permission. We'll use this to pull down our NPM package after we publish it.
-
-Then, go to the `Actions` tab on your repo and enable Github Actions.
 
 ## Demo Time
 
@@ -50,6 +44,8 @@ We'll tell you how to do 3, but 1 and 2 you've gotta figure out! 3:
 Once you've gotten the config figured out, push up and see if CI works.
 
 ### Using your package
+
+Make yourself a [Github Personal Access token](https://github.com/settings/tokens/new) and save it. This token needs the `write:packages` permission. We'll use this to pull down our NPM package now that it's published.
 
 We're in the home stretch now. Edit the file `~/.npmrc` if it exists, and create it if it doesn't already exist. In the file, add the following config, replacing OWNER with your Github username and PAT with your Github personal access token.
 
