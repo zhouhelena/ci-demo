@@ -1,7 +1,7 @@
 {
-  "name": "@cis188/ci-demo",
+  "name": "@cis1912/ci-demo",
   "version": "1.0.0",
-  "description": "A demo application used to demonstrate CI for cis188",
+  "description": "A demo application used to demonstrate CI for cis1912",
   "main": "index.js",
   "scripts": {
     "lint": "eslint"
@@ -9,7 +9,7 @@
   "bin": {
     "ci-demo": "./index.js"
   },
-  "author": "CIS 188",
+  "author": "CIS 1912",
   "license": "ISC",
   "dependencies": {
     "jest": "^26.6.3",
@@ -22,6 +22,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cis188/ci-demo.git"
+    "url": "https://github.com/cis1912/ci-demo.git"
   }
 }

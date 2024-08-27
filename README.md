@@ -12,7 +12,7 @@ First, look around you and find a partner (or two)! Y'all will publish separate 
 
 For this demo, you're going to be publishing your own Node.js application! This app will be a simple CLI command that you can customize to say whatever you want. Before going any further, check out `index.js`! Add whatever functionality/message you want, and move on.
 
-Next, open up `package.json`. We've got some 188-specific configuration in there - specifically the repository and name. Change these to reflect that this is now under _your_ user, not the `cis188` organization.
+Next, open up `package.json`. We've got some 1912-specific configuration in there - specifically the repository and name. Change these to reflect that this is now under _your_ user, not the `cis1912` organization.
 
 Finally, run `npm install` to install your dependencies and `node .` to make sure your app will actually print something out.
 
