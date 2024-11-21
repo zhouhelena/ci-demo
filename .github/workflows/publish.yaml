@@ -8,3 +8,5 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           echo "todo"
+          npm install
+          npm run lint

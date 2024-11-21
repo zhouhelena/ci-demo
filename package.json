@@ -1,5 +1,5 @@
 {
-  "name": "@cis1912/ci-demo",
+  "name": "@zhouhelena/ci-demo",
   "version": "1.0.0",
   "description": "A demo application used to demonstrate CI for cis1912",
   "main": "index.js",
@@ -22,6 +22,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cis1912/ci-demo.git"
+    "url": "https://github.com/zhouhelena/ci-demo.git"
   }
 }
