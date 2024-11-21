@@ -62,4 +62,4 @@ $ ci-demo
 Hello World: 6aa43f18-4d3c-4f05-a29a-4c25907c8f7b
 ```
 
-If this worked, then you've successfully automated publishing for your own npm app! Once you're done, call over Armaan and ask him how many people pied him today.
+If this worked, then you've successfully automated publishing for your own npm app! Once you're done, call over Jordan and ask him about how many "murders" he witnessed today.
